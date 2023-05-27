@@ -1,10 +1,13 @@
 def fileread():
+    """Открывает файл book.txt для чтения информации"""
     return open('book.txt', 'r', encoding='utf-8')
 
 def fileadd():
+    """Открывает файл book.txt для добавления информации"""
     return open('book.txt', 'a', encoding='utf-8')
 
 def filewrite():
+    """Открывает файл book.txt для записи информации"""
     return open('book.txt', 'w', encoding='utf-8')
 
 def show_data() -> None:
